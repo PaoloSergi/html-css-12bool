@@ -1,11 +1,8 @@
-.container{
-    color: white;
-}
-
-[class*="col"]{
+[class*="col-xs"]{
     border: 1px solid white;
     height: 50px;
     background-color: #006cfa;
+    color: white;
 }
 
 .flexBox{
@@ -27,3 +24,4 @@
 .margin-bottom-20{
     margin-bottom: 20px;
 }
+
