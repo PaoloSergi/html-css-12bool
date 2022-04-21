@@ -1,15 +1,25 @@
 .container{
-    background-color: #006cfa;
     color: white;
 }
 
 [class*="col"]{
     border: 1px solid white;
     height: 50px;
+    background-color: #006cfa;
 }
 
 .flexBox{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.padding-15{
+    padding: 15px;
+    height: auto;
+}
+
+.green{
+    background-color: #00e165;
+    border: 1px solid #006cfa;
 }
